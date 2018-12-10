@@ -1,0 +1,4 @@
+{
+  "entry": "./projects/nav-scroll-bg/src/assets/styles.scss",
+  "dest": "./dist/nav-scroll-bg/_nav-scroll-bg.scss"
+}

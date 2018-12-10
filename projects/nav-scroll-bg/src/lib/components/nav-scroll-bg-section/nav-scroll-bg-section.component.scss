@@ -1,0 +1,15 @@
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.scrollable-background-section {
+  min-height: 500px;
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+}

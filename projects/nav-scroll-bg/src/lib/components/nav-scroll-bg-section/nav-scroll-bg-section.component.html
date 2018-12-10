@@ -1,0 +1,14 @@
+<mat-toolbar
+  color="primary"
+  [style.background-color]="backgroundColor"
+  [style.color]="color"
+>
+  <ng-content select="mat-nav-scroll-bg-menu"></ng-content>
+</mat-toolbar>
+<div
+  class="scrollable-background-section"
+  [style.background-color]="backgroundColor"
+  [style.color]="color"
+>
+  <ng-content></ng-content>
+</div>

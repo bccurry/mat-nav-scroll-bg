@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Theme } from './theme.enum';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mat-nav-scroll-bg';
+  theme = Theme;
+
+  constructor() {
+    console.log(this.theme);
+  }
 }
