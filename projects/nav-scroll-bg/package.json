@@ -1,9 +1,21 @@
 {
   "name": "mat-nav-scroll-bg",
   "author": "Brandon Curry",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Angular material scrolling background navigation.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bccurry/mat-nav-scroll-bg.git"
+  },
+  "bugs": "https://github.com/bccurry/mat-nav-scroll-bg/issues",
+  "keywords": [
+    "angular",
+    "material",
+    "angular material",
+    "navigation",
+    "scroll"
+  ],
   "peerDependencies": {
     "@angular/cdk": "^7.1.0",
     "@angular/material": "^7.1.0"
