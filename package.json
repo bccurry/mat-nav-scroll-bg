@@ -10,8 +10,9 @@
     "e2e": "ng e2e",
     "build-lib": "ng build --prod nav-scroll-bg",
     "npm-pack": "cd dist/nav-scroll-bg && npm pack",
-    "package": "npm run build-lib && npm run npm-pack && npm run bundle-styles",
-    "bundle-styles": "scss-bundle -c scss-bundle.config.json"
+    "package": "npm run build-lib && npm run npm-pack && npm run bundle-styles && npm run copy-readme",
+    "bundle-styles": "scss-bundle -c scss-bundle.config.json",
+    "copy-readme": "copyfiles --flat ./README.md ./dist/nav-scroll-bg"
   },
   "private": true,
   "dependencies": {
@@ -41,6 +42,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^4.5.0",
+    "copyfiles": "^2.1.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~1.7.1",
