@@ -13,8 +13,8 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "paths": {
-      "nav-scroll-bg": ["dist/nav-scroll-bg"],
-      "nav-scroll-bg/*": ["dist/nav-scroll-bg/*"]
+      "mat-nav-scroll-bg": ["dist/nav-scroll-bg"],
+      "mat-nav-scroll-bg/*": ["dist/nav-scroll-bg/*"]
     }
   }
 }

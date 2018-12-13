@@ -10,7 +10,5 @@ export class AppComponent {
   title = 'mat-nav-scroll-bg';
   theme = Theme;
 
-  constructor() {
-    console.log(this.theme);
-  }
+  constructor() {}
 }
