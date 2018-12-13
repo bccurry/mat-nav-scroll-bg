@@ -2,6 +2,10 @@
 
 Angular material mat-toolbar changes background color with sections.
 
+<iframe src="https://mat-nav-scroll-bg.stackblitz.io" style="width:100%; height:400px;"></iframe>
+
+[Angular Material Navigation Scroll Background Demo](https://stackblitz.com/edit/mat-nav-scroll-bg)
+
 ### Install
 
 ```bash
